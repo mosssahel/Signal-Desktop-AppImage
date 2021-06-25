@@ -1,4 +1,4 @@
-# Signal-Desktop-AppImage
+# Signal Desktop AppImage
 
 This is a bash script for building Signal Desktop Client from source. It produces Signal-5.6.2.AppImage , an [AppImage](https://en.wikipedia.org/wiki/AppImage) file which can possibly run on different Linux distributions, including Fedora.
 
