@@ -17,7 +17,7 @@ The script was tested on a fresh install of Ubuntu 21.04. The AppImage it produc
 - Execute the script with <code>./build_signal-desktop-5.6.sh </code>
 - Wait patiently. The script may take several minutes to complete.
 - When done you should find the file in the release folder. For example if you ran the script from your home directory then it should be here: <code>~/Signal-Desktop/release/Signal-5.6.2.AppImage</code>
- - Use <code>./Signal-5.6.2.AppImage --startp-in-tray</code>
+ - Use <code>./Signal-5.6.2.AppImage --start-in-tray</code>
 
 ## Ready made Binaries:
 
