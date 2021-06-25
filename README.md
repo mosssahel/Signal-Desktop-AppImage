@@ -24,3 +24,9 @@ The script was tested on a fresh install of Ubuntu 21.04. The AppImage it produc
 If you do not wish to build the AppImage yourself then a prebuilt binary for the client one can be downloaded from the [Releases](https://github.com/mosssahel/Signal-Desktop-AppImage/releases) section of this repository. 
 
 Both the script and the binaries are distributed without any warranty including the warranty of fitness for a particular purpose. See license.
+
+## Running
+
+Refer to this [documentation](https://docs.appimage.org/introduction/quickstart.html#ref-how-to-run-appimage) for instructions on executing AppImage files. You can also run the program in the newer versions of firejail for additional security:
+
+<code> firejail --profile=signal-desktop  --appimage Signal-5.6.2.AppImage --start-in-tray </code>
