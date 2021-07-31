@@ -11,10 +11,10 @@ The script was tested on a fresh install of Ubuntu 21.04. The AppImage it produc
 
 - (Optional) use a virtual machine running Ubuntu 21.04 Desktop edition or a derivative. The script may need to be modified to run on other distributions.
 - Create a folder where you want to work. 
-- Copy the file build_signal-desktop-5.6.sh to this folder
+- Copy the file build_latest.sh to this folder
 - Open a terminal in the folder.
-- Make the script executable with: <code>chmod +x build_signal-desktop-5.6.sh </code>
-- Execute the script with <code>./build_signal-desktop-5.6.sh </code>
+- Make the script executable with: <code>chmod +x build_latest.sh </code>
+- Execute the script with <code>./build_latest.sh </code>
 - Wait patiently. The script may take several minutes to complete.
 - When done you should find the file in the release folder. For example if you ran the script from your home directory then it should be here: <code>~/Signal-Desktop/release/Signal-5.6.2.AppImage</code>
  - Use <code>./Signal-5.6.2.AppImage --start-in-tray</code>
@@ -27,6 +27,6 @@ Both the script and the binaries are distributed without any warranty including 
 
 ## Running
 
-Refer to this [documentation](https://docs.appimage.org/introduction/quickstart.html#ref-how-to-run-appimage) for instructions on executing AppImage files. You can also run the program in the newer versions of firejail for additional security:
+Refer to this [documentation](https://docs.appimage.org/introduction/quickstart.html#ref-how-to-run-appimage) for instructions on executing AppImage files. You can also run the program in the newer versions of firejail for additional security. FOr example like this:
 
 <code> firejail --profile=signal-desktop  --appimage Signal-5.6.2.AppImage --start-in-tray </code>
